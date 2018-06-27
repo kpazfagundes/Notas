@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddActivity">
+
+    <EditText
+        android:id="@+id/edtTituloId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Digite o título..."
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtTextoId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Digite a descrição..."
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textSize="20sp" />
+</android.widget.LinearLayout>

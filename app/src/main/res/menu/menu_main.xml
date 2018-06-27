@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.pucminas.notas.activity.MainActivity">
+    <item
+        android:id="@+id/mnPesquisarId"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="100"
+        android:title="Pesquisar"
+        app:showAsAction="never|always" />
+</menu>
